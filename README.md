@@ -1,174 +1,169 @@
 # Portfolio
 
-**Ofertas laborales**
-o Nombre del puesto
-Software Engineer I (Intern)
-https://www.linkedin.com/jobs/view/4376899590/ 
+## Ofertas laborales
 
-o Tecnologías requeridas
-Lenguajes: C/C++, Python o Java (mínimo uno)
-Experiencia en QA, pruebas y debugging
-Herramientas asociadas con desarrollo y datos (bases de datos, APIs, etc.)
+---
 
+## 1. Software Engineer I (Intern)
+🔗 https://www.linkedin.com/jobs/view/4376899590/
 
-o Habilidades técnicas (hard skills)
-Interés o experiencia en IA, tecnologías en la nube y prácticas ágiles
-Experiencia con BD, desarrollo o servicios web
-Sólidas habilidades analíticas, de resolución de problemas y de comunicación.
-Inglés profesional
+### Tecnologías requeridas
+- Lenguajes: C/C++, Python o Java (mínimo uno)
+- Experiencia en QA, pruebas y debugging
+- Herramientas asociadas con desarrollo y datos (bases de datos, APIs, etc.)
 
-o Habilidades blandas (soft skills)
-Comunicación clara
-Capacidad de priorizar tareas
-Curiosidad e interés en aprender nuevas tecnologías
-Trabajo en equipo
+### Habilidades técnicas (Hard Skills)
+- Interés o experiencia en IA, tecnologías en la nube y prácticas ágiles
+- Experiencia con bases de datos, desarrollo o servicios web
+- Sólidas habilidades analíticas y de resolución de problemas
+- Inglés profesional
 
-o Responsabilidades principales
-Contribuir a desarrollar soluciones de software que impactan en herramientas globales
-Colaborar con equipos técnicos para construir y mantener aplicaciones
-Aplicar conocimientos técnicos en tareas de QA y depuración
-Apoyar en proyectos técnicos bajo supervisión
+### Habilidades blandas (Soft Skills)
+- Comunicación clara
+- Capacidad de priorizar tareas
+- Curiosidad e interés en aprender nuevas tecnologías
+- Trabajo en equipo
 
+### Responsabilidades principales
+- Contribuir al desarrollo de soluciones de software que impactan herramientas globales
+- Colaborar con equipos técnicos para construir y mantener aplicaciones
+- Aplicar conocimientos técnicos en tareas de QA y depuración
+- Apoyar en proyectos técnicos bajo supervisión
 
+---
 
-o Nombre del puesto
-Fullstack Developer
-https://www.linkedin.com/jobs/view/4368153968/ 
+## 2. Fullstack Developer
+🔗 https://www.linkedin.com/jobs/view/4368153968/
 
-o Tecnologías requeridas
-React y Node.js
-HTML, CSS, JavaScript
-Bases de datos SQL y NoSQL
-Frameworks de testing (por ejemplo, Cypress, Selenium)
+### Tecnologías requeridas
+- React y Node.js
+- HTML, CSS, JavaScript
+- Bases de datos SQL y NoSQL
+- Frameworks de testing (Cypress, Selenium)
 
-o Habilidades técnicas (hard skills)
-Desarrollo frontend con React
-Desarrollo backend con Node.js
-Manejo de bases de datos
-Diseño y mantenimiento de APIs
-Código limpio y documentado
+### Habilidades técnicas (Hard Skills)
+- Desarrollo frontend con React
+- Desarrollo backend con Node.js
+- Manejo de bases de datos
+- Diseño y mantenimiento de APIs
+- Escritura de código limpio y documentado
 
-o Habilidades blandas (soft skills)
-Organización y gestión de proyectos
-Comunicación efectiva con otros equipos
-Pasión por la tecnología
-Capacidad de mantenerse actualizado en mejores prácticas
+### Habilidades blandas (Soft Skills)
+- Organización y gestión de proyectos
+- Comunicación efectiva con otros equipos
+- Pasión por la tecnología
+- Capacidad de mantenerse actualizado en mejores prácticas
 
-o Responsabilidades principales
-Diseñar y construir aplicaciones web escalables
-Escribir código de alta calidad para frontend y backendç
-Desarrollar servicios backend y APIs robustas
-Optimizar aplicaciones para máxima velocidad, escalabilidad y seguridad
-Colaborar con diseñadores y otros desarrolladores
-Mantener rendimiento, documentación y pruebas del software
+### Responsabilidades principales
+- Diseñar y construir aplicaciones web escalables
+- Escribir código de alta calidad para frontend y backend
+- Desarrollar servicios backend y APIs robustas
+- Optimizar aplicaciones para velocidad, escalabilidad y seguridad
+- Colaborar con diseñadores y desarrolladores
+- Mantener rendimiento, documentación y pruebas del software
 
+---
 
-o Nombre del puesto
-Fullstack Developer (Remote- LATAM)
-https://www.linkedin.com/jobs/view/4371017920/
+## 3. Fullstack Developer (Remote - LATAM)
+🔗 https://www.linkedin.com/jobs/view/4371017920/
 
-o Tecnologías requeridas
-Node.js y React
-AWS (EC2, S3, Lambda)
-RESTful APIs
-Bases de datos (MySQL/PostgreSQL/MariaDB)
+### Tecnologías requeridas
+- Node.js y React
+- AWS (EC2, S3, Lambda)
+- RESTful APIs
+- Bases de datos (MySQL/PostgreSQL/MariaDB)
 
+### Habilidades técnicas (Hard Skills)
+- Más de 7 años de experiencia como Full-Stack
+- Nivel de inglés experto
+- Dominio de JavaScript (ES6+), HTML5, CSS3 y React JS (Flux/Redux)
+- Amplio conocimiento de Node.js y estructuras de datos basadas en JSON
+- Gestión e implementación en AWS
+- DevOps y seguridad
+- Diseño de APIs y microservicios
+- Administración de bases de datos relacionales
 
-o Habilidades técnicas (hard skills)
-Más de 7 años de experiencia como full-stack
-Nivel de inglés experto
-Dominio de JavaScript (ES6+), HTML5, CSS3 y React JS (Flux/Redux)
-Backend Stack: Amplio conocimiento de Node.js y estructuras de datos basadas en JSON
-Gestión e implementación en AWS
-DevOps y seguridad
-Diseño de APIs y microservicios
-Administrar bases de datos relacionales
+### Habilidades blandas (Soft Skills)
+- Autonomía para manejar tareas
+- Capacidad para resolver problemas complejos
+- Comunicación clara y trabajo remoto
+- Intuición técnica para ingeniería
 
-o Habilidades blandas (soft skills)
-Autonomía para manejar tareas
-Capacidad para resolver problemas complejos
-Comunicación clara y capacidad de trabajo remoto
-Intuición técnica para ingeniería
+### Responsabilidades principales
+- Diseñar y ofrecer aplicaciones web completas
+- Mantener entornos en la nube (AWS)
+- Construir APIs robustas
+- Colaborar con equipos y asegurar escalabilidad del software
 
-o Responsabilidades principales
-Diseñar y ofrecer aplicaciones web completas
-Mantener entornos en la nube (AWS)
-Construir APIs robustas
-Colaborar con equipos y asegurar escalabilidad del software
+---
 
+## 4. Programador Full Stack – Stefanini LATAM
+🔗 https://www.linkedin.com/jobs/view/4377263874/
 
+### Tecnologías requeridas
+- JavaScript, Node.js, APIs REST
+- SQL u Oracle
+- Herramientas de desarrollo (Figma, metodologías ágiles)
 
-o Nombre del puesto
-Programador Full Stack – Stefanini LATAM
-https://www.linkedin.com/jobs/view/4377263874/
+### Habilidades técnicas (Hard Skills)
+- Más de 3 años de experiencia en Spring Boot, Java y Angular
+- Licenciatura en informática o campo relacionado
+- Metodologías ágiles (Scrum, Kanban)
+- Herramientas de gestión de proyectos
+- Modelado y documentación de aplicaciones
+- Arquitectura de software (monolitos, microservicios, APIs)
+- API REST (JSON), WSDL (XML), MVC
+- SQL (Oracle, PostgreSQL), Git
+- Desarrollo orientado a objetos
+- Experiencia en microservicios
+- API Management e integración de sistemas
 
-o Tecnologías requeridas
-Lenguajes comunes: JavaScript, Node.js, APIs REST
-SQL u Oracle
-Herramientas de desarrollo (Figma, metodologías ágiles)
+### Habilidades blandas (Soft Skills)
+- Autonomía
+- Resolución de problemas complejos
+- Comunicación clara
+- Capacidad de trabajo remoto
 
-o Habilidades técnicas (hard skills)
-Más de 3 años de experiencia laboral en Spring Boot, Java y Angular
-Licenciatura en informática, tecnología de la información o un campo relacionado.
-Metodologías ágiles (Scrum, Kanban).
-Herramientas de gestión de proyectos y seguimiento
-Modelado y documentación de aplicaciones
-Arquitectura de software (monolitos, microservicios, APIs)
-Conocimiento en uso de API Rest (JSON) y WSDL (XML) además de modelado MVC, uso de figma, SQL (Oracle, Postgress), Git
-Manejo de desarrollo orientado a objeto
-2 años de experiencia en la creación de microservicios.
-Desarrollo de API’s, integración con API´s.
-Ejecutar proyectos como API Management, integración de sistemas, gestión de servicios.
+### Responsabilidades principales
+- Identificar y analizar requisitos de usuarios
+- Priorizar y ejecutar tareas del ciclo de vida del software
+- Desarrollar aplicaciones
+- Diseñar e implementar soluciones en la nube
+- Implementar medidas de seguridad para proteger aplicaciones y datos
 
-o Habilidades blandas (soft skills)
-Autonomía para manejar tareas
-Capacidad para resolver problemas complejos
-Comunicación clara y capacidad de trabajo remoto
-Intuición técnica para ingeniería
+---
 
-o Responsabilidades principales
-Identificar y analizar los requisitos de los usuarios. 
-Priorizar y ejecutar tareas a lo largo del ciclo de vida del desarrollo de software. 
-Desarrollar aplicaciones
-Diseñar e implementar soluciones basadas en la nube que cumplan con los requisitos.
-Implementar medidas de seguridad para proteger las aplicaciones y los datos basados en la nube.
+## 5. Back-End Developer
+🔗 https://www.linkedin.com/jobs/view/4377793502/
 
+### Tecnologías requeridas
+- AWS CDK
+- TypeScript, Node.js, Python, Go
+- ECS, EC2, Lambda
+- DynamoDB / Postgres
+- GitHub Actions (CI/CD)
 
+### Habilidades técnicas (Hard Skills)
+- 4 años de experiencia en AWS CDK y SST
+- TypeScript, Node.js, Python, Go
+- ECS, EC2, Docker
+- Lambda
+- DynamoDB, Timescale/Postgres
+- WebSockets (real-time alerting)
+- IAM, Cognito
+- Diseño y gestión de APIs
+- GitHub Actions para CI/CD
+- Apache Spark (Java-based)
+- J2735, JSON, Apache Kafka
+- Docker Swarm (deseable), EMR (deseable)
 
-o Nombre del puesto
-Back-End Developer
-https://www.linkedin.com/jobs/view/4377793502/
-o Tecnologías requeridas
-AWS CDK
-Lenguajes y entornos: TypeScript, Node.js, Python, Go
-ECS, EC2, Lambda
-DynamoDB/Postgres
-GitHub Actions (CI/CD)
+### Habilidades blandas (Soft Skills)
+- Trabajo en equipo técnico
+- Comunicación para coordinación de despliegues
+- Pensamiento analítico
 
-
-o Habilidades técnicas (hard skills)
-4 años de experiencia en: 
-AWS CDK y SST
-TypeScript, Node.js, Python, Go
-ECS, EC2, Docker
-Lambda
-DynamoDB, Timescale/Postgres
-Real-time alerting (WebSockets)
-TSP/EVP logic
-IAM, Cognito
-API design and management
-GitHub Actions for CI/CD
-Experience with Java-based Apache Spark Data Processing
-Experience with J2735, JSON, Apache Kafka
-Experience with Docker Swarm preferred, EMR nice to have
-
-o Habilidades blandas (soft skills)
-Capacidad para trabajar en equipo técnico
-Comunicación para coordinar despliegues y seguimiento
-Pensamiento analítico para resolver problemas complejos
-
-o Responsabilidades principales
-Diseñar y construir soluciones backend en AWS
-Crear APIs eficientes y a prueba de fallos
-Automatizar procesos de despliegue
-Mantener integraciones y monitoreo de sistemas
+### Responsabilidades principales
+- Diseñar y construir soluciones backend en AWS
+- Crear APIs eficientes y resilientes
+- Automatizar procesos de despliegue
+- Mantener integraciones y monitoreo de sistemas
