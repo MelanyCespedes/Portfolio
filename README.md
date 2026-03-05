@@ -167,3 +167,22 @@
 - Crear APIs eficientes y resilientes
 - Automatizar procesos de despliegue
 - Mantener integraciones y monitoreo de sistemas
+
+
+
+
+## Conclusiones de la búsqueda
+
+---
+
+## 1. Patrones comunes
+- En el ámbito de las tecnologías: Desarrollo Full-Stack, Backend con Node.js o Java, frontend con React, manejo de APIs REST, Bases de datos SQL y NoSQL, conocimientos en AWS o entornos cloud, uso de Git y metodologías ágiles, lenguaje Javascript.
+- Habilidades técnicas: Desarrollo de aplicaciones escalables, diseño de arquitecturas limpias, testing y debugging, integración continua (CI/CD) y manejo de microservicios.
+- Habilidades blandas:Trabajo en equipo, comunicación efectiva, resolución de problemas, autonomía y adaptabilidad tecnológica
+
+## 2. Perfil soñado objetivo
+A partir de las elecciones de los puestos, sus patrones comunes y lo que tenía pensado antes de hacer la búsqueda, mi perfil soñado es Full-Stack Developer con enfoque en backend y arquitectura de software, que utiliza tecnologías modernas. 
+
+## 3. Justificar el enfoque del sitio web desarrollado 
+
+## 4. Diferenciadores claves
