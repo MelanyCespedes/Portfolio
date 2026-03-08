@@ -1,11 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1 class="name">Priscila Developer</h1>
+
+        <nav class="navegador">
+            <ul>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Experience</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+
+        <div class="hero-text">
+            <h2 class="hi">Hi, I’m Priscila Céspedes Sánchez</h2>
+            <h3 class="full">Full-Stack Developer | Backend-Focused Engineer</h3>
+
+            <p class="building">
+                Building scalable web applications using Java, React and cloud technologies.
+            </p>
+
+            <span>Available for hire</span>
+
+            <div class="hero-buttons">
+                <button>
+                    <!-- <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-oKQRClqQMYaJdbC-5vsiFMy27Fbj84FQFA&amp;s"> -->
+                </button>
+                <button></button>
+            </div>
+
+            <p>Scroll to explore</p>
+        </div>
+
+        <div class="hero-photo">
+            <img alt="One photo of Priscila" src="images/me.png">
+
+        </div>
+
+    </section>
+
+
+    <main>
+
+        <section class="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                Full-stack developer focused on building modern web applications with a strong backend foundation.
+                My work involves designing RESTful APIs, structuring applications using clean architecture principles,
+                and implementing scalable data models with relational databases.
+                I am particularly interested in creating maintainable systems, applying design patterns such as MVC,
+                and developing solutions that balance performance, usability and long-term scalability.
+                I also enjoy researching new technologies and continuously expanding my skill set.
+            </p>
+
+            <article class="education">
+                <h3>Education</h3>
+
+                <p>
+                    Bachelor’s Degree in Information Systems Engineering
+                    Universidad Nacional de Costa Rica
+                </p>
+
+                <h4>Relevant Coursework</h4>
+
+                <ul>
+                    <li>Data Structures</li>
+                    <li>Software Architecture</li>
+                    <li>Databases</li>
+                    <li>Computer Architecture</li>
+                </ul>
+            </article>
+
+        </section>
+
+
+        <section class="skills">
+
+            <h2>Skills</h2>
+
+            <article class="skill-group">
+                <h3 class="backend">Backend</h3>
+                <span class="caja1">Java</span>
+                <span class="caja2">Node.js</span>
+                <span class="caja3">Spring Boot</span>
+                <span class="caja4">REST APIs</span>
+                <span class="caja5">Authentication</span>
+                <span class="caja6">JWT</span>
+                <span class="caja7">Express</span>
+                <span class="caja8">Microservices</span>
+            </article>
+
+            <article class="skill-group">
+                <h3 class="database">Database</h3>
+                <span class="caja9">MySQL</span>
+                <span class="caja10">PostgreSQL</span>
+                <span class="caja11">Oracle</span>
+                <span class="caja12">MongoDB</span>
+                <span class="caja13">SQL</span>
+                <span class="caja14">ER Modeling</span>
+            </article>
+
+            <article class="skill-group">
+                <h3 class="frontend">Frontend</h3>
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Responsive Design</span>
+                <span>Figma</span>
+            </article>
+
+            <article class="skill-group">
+                <h3 class="cloud">Cloud & DevOps</h3>
+                <span>GitHub</span>
+                <span>AWS</span>
+                <span>Atlas</span>
+                <span>Docker</span>
+            </article>
+
+        </section>
+
+
+        <section class="experience">
+
+            <h2>Experience</h2>
+
+            <article class="experience-card">
+                <h3>Freelance Web Developer</h3>
+                <span>2028–2032</span>
+
+                <p>
+                    Website design and development for local businesses in the Southern Zone of Costa Rica
+                    using HTML5, CSS3 and JavaScript.
+                    Implementation of contact forms using Node.js and Nodemailer.
+                    Hosting and domain configuration for multiple clients.
+                </p>
+            </article>
+
+            <article class="experience-card">
+                <h3>Software Developer</h3>
+                <span>2025–2028</span>
+
+                <p>
+                    Developed web applications as part of academic and personal projects focusing on
+                    backend development and scalable systems.
+                    Designed REST APIs, applied MVC architecture, developed React interfaces
+                    and designed relational database schemas.
+                </p>
+            </article>
+
+            <article class="experience-card">
+                <h3>Full-Stack Developer – Project Based Work</h3>
+                <span>2032–Present</span>
+
+                <p>
+                    Development of full-stack applications using React and Node.js.
+                    Integration of frontend interfaces with REST APIs and implementation
+                    of scalable task management systems.
+                </p>
+            </article>
+
+        </section>
+
+
+        <section id="projects">
+
+            <h2>Some Projects</h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>TaskFlow API</h3>
+
+                    <p>
+                        RESTful API for team task management with JWT authentication, user roles
+                        and Swagger documentation. Built with Node.js, Express and PostgreSQL.
+                        Deployed on AWS EC2.
+                    </p>
+
+
+                    <div class="tags">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>PostgreSQL</span>
+                        <span>JWT</span>
+                        <span>AWS EC2</span>
+                        <span>Swagger</span>
+                    </div>
+                </article>
+
+
+                <article class="project-card">
+                    <h3>Task Management Web Application</h3>
+
+                    <p>
+                        Full-stack web application for task management with React frontend and
+                        Node.js backend connected through a REST API with PostgreSQL database.
+                    </p>
+
+
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>PostgreSQL</span>
+                        <span>REST API</span>
+                        <span>Responsive</span>
+                    </div>
+                </article>
+
+
+                <article class="project-card">
+                    <h3>ShopLocal Costa Rica</h3>
+
+                    <p>
+                        Platform for local businesses to publish products, manage orders and
+                        communicate with customers. Built with React frontend and Node.js backend
+                        with MySQL database.
+                    </p>
+
+
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MySQL</span>
+                        <span>CSS3</span>
+                        <span>Responsive</span>
+                    </div>
+                </article>
+
+
+                <article class="project-card">
+                    <h3>University Inventory System</h3>
+
+                    <p>
+                        Web-based system for managing university assets with authentication,
+                        full CRUD operations and PDF report generation. Built with
+                        React, Node.js and PostgreSQL.
+                    </p>
+
+
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Express</span>
+                        <span>PostgreSQL</span>
+                        <span>GitHub Actions</span>
+                        <span>Scrum</span>
+                    </div>
+                </article>
+
+        </section>
+
+
+        <section id="contact">
+
+            <h2>We work together?</h2>
+<div class="contact-body">
+            <div class="contact-info">
+
+                <p><strong>Email:</strong> <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                        data-cfemail="28494a4c5b4e4c494a44684f45494144064b4745">[email&#160;protected]</a></p>
+                <p><strong>Phone:</strong> +501 83106360</p>
+                <p><strong>Location:</strong> Available for remote work</p>
+
+            </div>
+
+            <form>
+
+                <div class="form-row">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                </div>
+
+                <textarea placeholder="Your Message"></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+</div>
+        </section>
+
+    </main>
+    <footer>
+
+        <p class="footer-name">Priscila Céspedes Sánchez - Full Stack Developer</p>
+
+        <p class="footer-">Open to collaborating on innovative software projects</p>
+
+    </footer>
+
 </body>
+
 </html>
