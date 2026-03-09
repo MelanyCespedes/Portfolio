@@ -184,5 +184,23 @@
 A partir de las elecciones de los puestos, sus patrones comunes y lo que tenía pensado antes de hacer la búsqueda, mi perfil soñado es Full-Stack Developer con enfoque en backend y arquitectura de software, que utiliza tecnologías modernas. 
 
 ## 3. Justificar el enfoque del sitio web desarrollado 
-
+El sitio web fue orientado a la postulación a un puesto ficticio de Full Stack Developer en una empresa de tecnología remota en LATAM.
+La mayoría de las ofertas muestran una demanda de desarrolladores que dominen React y Node.js en el frontend y backend respectivamente, con manejo de bases de datos relacionales (PostgreSQL/MySQL), diseño de APIs REST y conocimientos básicos de AWS. El sitio web fue diseñado para responder directamente a ese perfil: cada sección (habilidades, experiencia y proyectos) refleja las tecnologías y responsabilidades más repetidas en las ofertas analizadas.
+Elegí el enfoque de postulación en lugar de emprendimiento porque las ofertas investigadas buscan perfiles colaborativos, con capacidad de trabajar en equipo bajo metodologías ágiles, lo cual se alinea mejor con un CV profesional que con una página de servicios.
 ## 4. Diferenciadores claves
+1. Enfoque backend con visión full stack
+A diferencia de muchos portafolios que priorizan lo visual, decidí destacar la arquitectura de software: diseño de APIs, autenticación JWT, modelado de bases de datos y despliegue en AWS. Esto responde directamente a lo que buscan ofertas como la de Back-End Developer y el Fullstack Developer (Remote LATAM), que piden criterio técnico y no solo conocimiento superficial de frameworks.
+2. Proyectos con contexto real y local
+Los proyectos presentados no son ejercicios genéricos — tienen un propósito concreto (gestión de inventario universitario, plataforma para negocios locales costarricenses). Esto demuestra capacidad para identificar un problema real y construir una solución completa, que es exactamente lo que el puesto de Software Engineer I (Intern) y el Fullstack Developer de Stefanini valoran bajo el criterio de "identificar y analizar requisitos de usuarios".
+
+## Justificación de uso de JavaScript
+1. Inicialización de iconos (Lucide)
+Lucide se carga mediante CDN y requiere llamar a lucide.createIcons() para que los íconos se rendericen correctamente en el HTML. Sin esto, los elementos <i data-lucide="..."> no se mostrarían. Además se aplicó color blanco mediante un bloque de estilos inline.
+2. Formulario de contacto con WhatsApp
+Al enviar el formulario, JavaScript valida que los campos no estén vacíos y redirige al usuario a WhatsApp con un mensaje pre-construido usando la API wa.me. Se eligió esta solución porque no requiere backend y permite una comunicación directa e inmediata.
+3. Menú hamburger en mobile
+Se usa JavaScript para alternar las clases open y active al hacer click en el botón, mostrando u ocultando el menú de navegación. También se cierra automáticamente al tocar cualquier enlace.
+
+## Enlaces
+Figma: https://www.figma.com/design/Xs3SUyloI9ua75BGJVHdia/Portfolio-Priscila-C%C3%A9spedes?node-id=0-1&t=Aid7BP3OsGdyuByz-1
+GitHub Pages: https://melanycespedes.github.io/Portfolio/
