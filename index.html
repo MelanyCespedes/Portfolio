@@ -12,20 +12,27 @@
     <header>
         <h1 class="name">Priscila Developer</h1>
 
-        <nav class="navegador">
-            <ul>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Experience</li>
-                <li>Projects</li>
-                <li>Contact</li>
-            </ul>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="navegador" id="navegador">
+            <a class="link" href="#About">About</a>
+            <a class="link" href="#Skills">Skills</a>
+            <a class="link" href="#Experience">Experience</a>
+            <a class="link" href="#projects">Projects</a>
+            <a class="link" href="#contact">Contact</a>
         </nav>
     </header>
 
 
-    <section class="hero">
 
+    <section class="hero">
+        <div class="hero-photo">
+            <img title="Photo of Priscila" alt="One photo of Priscila Developer" src="images/me.png">
+
+        </div>
         <div class="hero-text">
             <h2 class="hi">Hi, I’m Priscila Céspedes Sánchez</h2>
             <h3 class="full">Full-Stack Developer | Backend-Focused Engineer</h3>
@@ -38,26 +45,39 @@
 
             <div class="hero-buttons">
                 <button>
-                    <!-- <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-oKQRClqQMYaJdbC-5vsiFMy27Fbj84FQFA&amp;s"> -->
+                    <a class="link" href="https://github.com/MelanyCespedes" target="_blank" rel="noreferrer">
+                        <i data-lucide="github"></i>
+                    </a>
                 </button>
-                <button></button>
+                <button>
+
+                    <a class="link" href="https://www.linkedin.com/in/priscila-cespedes-5a56783b4/" target="_blank"
+                        rel="noreferrer">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+                </button>
+                <button>
+                    <a class="link"
+                        href="/cdn-cgi/l/email-protection#97e7e5fee4f4fefbf6f4f2e4e7f2f3f2e4a4a6d7f2faf6fefbb9f4f8fa">
+                        <i data-lucide="mail"></i>
+                    </a>
+                </button>
             </div>
 
-            <p>Scroll to explore</p>
+            <div class="scroll-hint">
+                <p>Scroll to explore</p>
+                <i data-lucide="move-down"></i>
+            </div>
         </div>
 
-        <div class="hero-photo">
-            <img alt="One photo of Priscila" src="images/me.png">
 
-        </div>
 
     </section>
 
 
     <main>
 
-        <section class="about">
+        <section id="About" class="about">
 
             <h2>About Me</h2>
 
@@ -91,34 +111,45 @@
         </section>
 
 
-        <section class="skills">
+        <section id="Skills" class="skills">
 
             <h2>Skills</h2>
 
             <article class="skill-group">
-                <h3 class="backend">Backend</h3>
-                <span class="caja1">Java</span>
-                <span class="caja2">Node.js</span>
-                <span class="caja3">Spring Boot</span>
-                <span class="caja4">REST APIs</span>
-                <span class="caja5">Authentication</span>
-                <span class="caja6">JWT</span>
-                <span class="caja7">Express</span>
-                <span class="caja8">Microservices</span>
+                <div>
+                    <i data-lucide="globe"></i>
+                    <h3 class="backend">Backend</h3>
+                </div>
+
+                <span>Java</span>
+                <span>Node.js</span>
+                <span>Spring Boot</span>
+                <span>REST APIs</span>
+                <span>Authentication</span>
+                <span>JWT</span>
+                <span>Express</span>
+                <span>Microservices</span>
             </article>
 
             <article class="skill-group">
-                <h3 class="database">Database</h3>
-                <span class="caja9">MySQL</span>
-                <span class="caja10">PostgreSQL</span>
-                <span class="caja11">Oracle</span>
-                <span class="caja12">MongoDB</span>
-                <span class="caja13">SQL</span>
-                <span class="caja14">ER Modeling</span>
+                <div>
+                    <i data-lucide="database"></i>
+                    <h3 class="database">Database</h3>
+                </div>
+
+                <span>MySQL</span>
+                <span>PostgreSQL</span>
+                <span>Oracle</span>
+                <span>MongoDB</span>
+                <span>SQL</span>
+                <span>ER Modeling</span>
             </article>
 
             <article class="skill-group">
-                <h3 class="frontend">Frontend</h3>
+                <div>
+                    <i data-lucide="monitor"></i>
+                    <h3 class="frontend">Frontend</h3>
+                </div>
                 <span>React</span>
                 <span>TypeScript</span>
                 <span>HTML5</span>
@@ -128,7 +159,11 @@
             </article>
 
             <article class="skill-group">
-                <h3 class="cloud">Cloud & DevOps</h3>
+                <div>
+                    <i data-lucide="cloud"></i>
+                    <h3 class="cloud">Cloud & DevOps</h3>
+                </div>
+
                 <span>GitHub</span>
                 <span>AWS</span>
                 <span>Atlas</span>
@@ -138,42 +173,58 @@
         </section>
 
 
-        <section class="experience">
+        <section id="Experience" class="experience">
 
             <h2>Experience</h2>
-
-            <article class="experience-card">
-                <h3>Freelance Web Developer</h3>
-                <span>2028–2032</span>
-
-                <p>
-                    Website design and development for local businesses in the Southern Zone of Costa Rica
-                    using HTML5, CSS3 and JavaScript.
-                    Implementation of contact forms using Node.js and Nodemailer.
-                    Hosting and domain configuration for multiple clients.
-                </p>
-            </article>
 
             <article class="experience-card">
                 <h3>Software Developer</h3>
                 <span>2025–2028</span>
 
                 <p>
-                    Developed web applications as part of academic and personal projects focusing on
-                    backend development and scalable systems.
-                    Designed REST APIs, applied MVC architecture, developed React interfaces
-                    and designed relational database schemas.
+                    Developed and maintained web applications as part of academic and personal projects, focusing on
+                    backend development, RESTful APIs and scalable system design.
+                    Responsibilities:
+                <ul>
+                    <li>Designed and implemented RESTful APIs for web applications</li>
+                    <li>Applied MVC architecture to structure maintainable software systems</li>
+                    <li>Developed frontend interfaces using React and TypeScript</li>
+                    <li>Designed relational database schemas and optimized queries</li>
+                    <li>Implemented modular code structures following software engineering best practices</li>
+                </ul>
                 </p>
             </article>
+
+            <article class="experience-card">
+                <h3>Freelance Web Developer</h3>
+                <span>2028–2032</span>
+
+                <p>
+                    Independent Projects — Remote
+                    Website design and development for local businesses in the Southern Zone of Costa Rica, using HTML5,
+                    CSS3, and vanilla JavaScript.
+                    Implementation of contact forms with email service integration using Node.js and Nodemailer.
+                    Management of hosting on basic servers and domain configuration for 3 clients.
+                </p>
+            </article>
+
+
 
             <article class="experience-card">
                 <h3>Full-Stack Developer – Project Based Work</h3>
                 <span>2032–Present</span>
 
                 <p>
-                    Development of full-stack applications using React and Node.js.
-                    Integration of frontend interfaces with REST APIs and implementation
-                    of scalable task management systems.
+                    Worked on full-stack web applications focusing on backend architecture and modern frontend
+                    development.
+                    Responsibilities:
+                <ul>
+                    <li>Developed full-stack applications using React and Node.js</li>
+                    <li>Integrated frontend interfaces with REST APIs</li>
+                    <li>Implemented task and data management systems with persistent storage</li>
+                    <li>Focused on clean architecture and maintainable codebases</li>
+                    <li>Researched and adopted new tools and technologies to improve development workflows</li>
+                </ul>
                 </p>
             </article>
 
@@ -270,30 +321,40 @@
 
         <section id="contact">
 
-            <h2>We work together?</h2>
-<div class="contact-body">
-            <div class="contact-info">
+            <h2>Let's work together</h2>
+            <div class="contact-body">
+                <div class="contact-info">
 
-                <p><strong>Email:</strong> <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-                        data-cfemail="28494a4c5b4e4c494a44684f45494144064b4745">[email&#160;protected]</a></p>
-                <p><strong>Phone:</strong> +501 83106360</p>
-                <p><strong>Location:</strong> Available for remote work</p>
+                    <div class="contact-item">
+                        <i data-lucide="mail"></i>
+                        <p><strong>Email:</strong> <a
+                                href="/cdn-cgi/l/email-protection#94e4e6fde7f7fdf8f5f7f1e7e4f1f0f1e7a7a5d4f1f9f5fdf8baf7fbf9">Send
+                                mail</a></p>
+                    </div>
 
-            </div>
+                    <div class="contact-item">
+                        <i data-lucide="phone"></i>
+                        <p><strong>Phone:</strong> <a href="tel:+50683106360">Call me</a></p>
+                        </p>
+                    </div>
 
-            <form>
+                    <div class="contact-item">
+                        <i data-lucide="map-pin"></i>
+                        <p><strong>Location:</strong> Available for remote work</p>
+                    </div>
 
-                <div class="form-row">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your Email">
                 </div>
-
-                <textarea placeholder="Your Message"></textarea>
-
-                <button type="submit">Send Message</button>
-
-            </form>
-</div>
+                <form id="contact-form">
+                    <div class="form-row">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                    <p class="form-error" id="form-error">Please fill in all fields.</p>
+                    <div>
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
         </section>
 
     </main>
@@ -304,7 +365,51 @@
         <p class="footer-">Open to collaborating on innovative software projects</p>
 
     </footer>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        [data-lucide] {
+            color: white;
+        }
+    </style>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
 
+            const name = document.getElementById('name').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            if (!name || !message) {
+                document.getElementById('form-error').style.display = 'block';
+                return;
+            }
+
+            document.getElementById('form-error').style.display = 'none';
+
+            const numero = '50683106360';
+            const texto = `Hola, mi nombre es ${name}. ${message}`;
+            const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
+
+            window.open(url, '_blank');
+        });
+    </script>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.getElementById('navegador');
+
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('open');
+            hamburger.classList.toggle('active');
+        });
+        nav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                hamburger.classList.remove('active');
+            });
+        });
+    </script>
 </body>
 
 </html>
