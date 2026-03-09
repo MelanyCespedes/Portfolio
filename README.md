@@ -201,3 +201,6 @@ Al enviar el formulario, JavaScript valida que los campos no estén vacíos y re
 3. Menú hamburger en mobile
 Se usa JavaScript para alternar las clases open y active al hacer click en el botón, mostrando u ocultando el menú de navegación. También se cierra automáticamente al tocar cualquier enlace.
 
+## Enlaces
+Figma: https://www.figma.com/design/Xs3SUyloI9ua75BGJVHdia/Portfolio-Priscila-C%C3%A9spedes?node-id=0-1&t=Aid7BP3OsGdyuByz-1
+GitHub Pages: https://melanycespedes.github.io/Portfolio/
