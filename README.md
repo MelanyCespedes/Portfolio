@@ -200,3 +200,4 @@ Lucide se carga mediante CDN y requiere llamar a lucide.createIcons() para que l
 Al enviar el formulario, JavaScript valida que los campos no estén vacíos y redirige al usuario a WhatsApp con un mensaje pre-construido usando la API wa.me. Se eligió esta solución porque no requiere backend y permite una comunicación directa e inmediata.
 3. Menú hamburger en mobile
 Se usa JavaScript para alternar las clases open y active al hacer click en el botón, mostrando u ocultando el menú de navegación. También se cierra automáticamente al tocar cualquier enlace.
+
